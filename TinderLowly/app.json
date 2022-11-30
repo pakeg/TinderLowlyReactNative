@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "TinderLowly",
+    "scheme": "https://rxn22u-19006.csb.app",
+    "slug": "TinderLowly",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+
+    "extra": {
+      "GOOGLE_CLIENT_ID": "1002197747854-icqbsum0d9dug2qq4eheoie8m3sh3k1p.apps.googleusercontent.com",
+      "GOOGLE_CLIENT_SECRET": "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"
+    }
+  }
+}
