@@ -53,8 +53,13 @@ export const AuthProvider = ({ children }) => {
     }
   }, []);
 
+  const logOut = useCallback(async () => {
+    await AsyncStorage.removeItem("user");
+    setUser(null);
+  }, []);
+
   return (
-    <AuthContext.Provider value={{ promptAsync, request, user }}>
+    <AuthContext.Provider value={{ promptAsync, request, user, logOut }}>
       {children}
     </AuthContext.Provider>
   );
