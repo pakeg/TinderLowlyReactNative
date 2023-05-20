@@ -6,6 +6,7 @@ import { AuthProvider } from "./hooks/useAuth";
 import StackNavigator from "./components/StackNavigator";
 
 export default function App() {
+  
   return (
     <NavigationContainer>
       <TailwindProvider>

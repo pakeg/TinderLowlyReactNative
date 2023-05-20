@@ -26,7 +26,6 @@ export const AuthProvider = ({ children }) => {
     };
     getPersistedAuth();
   }, []);
-
   useEffect(() => {
     if (response?.type === "success") {
       getUserInfo(response.authentication.accessToken);
