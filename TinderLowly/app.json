@@ -27,8 +27,8 @@
     },
 
     "extra": {
-      "GOOGLE_CLIENT_ID": "1002197747854-icqbsum0d9dug2qq4eheoie8m3sh3k1p.apps.googleusercontent.com",
-      "GOOGLE_CLIENT_SECRET": "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"
+      "GOOGLE_CLIENT_ID": "Your CLIENT_ID",
+      "GOOGLE_CLIENT_SECRET": "Your CLIENT_SECRET"
     }
   }
 }
