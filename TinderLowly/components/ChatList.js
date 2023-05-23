@@ -9,7 +9,7 @@ import ChatRow from "./ChatRow";
 const ChatList = () => {
   const { user } = useAuth();
   const [matches, setMatches] = useState([]);
-
+  
   useEffect(() => {
     const getMatches = async () => {
       const data = await getDocs(
@@ -30,7 +30,7 @@ const ChatList = () => {
       className="h-full"
       data={matches}
       keyExtractor={(item) => item.id}
-      renderItem={(item) => <ChatRow item={item.item} />}
+      renderItem={({ item }) => <ChatRow item={item} chatId={matches.id} />}
     />
   ) : (
     <View className="p-5">
